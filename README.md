@@ -36,6 +36,7 @@ This is an MVP version of awesome_books that allows users to "Display a list of 
 ### Tech Stack <a name="tech-stack"></a>
 
 **React**
+**Redux**
 
 <!-- Features -->
 
