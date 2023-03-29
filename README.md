@@ -27,7 +27,7 @@
 
 # 📚 Book Store 
 
-This is an MVP version of awesome_books that allows users to "Display a list of books", "Add a book". and "Remove a selected book".
+This is an MVP version of awesome_books that allows users to "Display a list of books", "Add a book" and "Remove a selected book".
  
 
 ## 🛠 Built With <a name="built-with"></a>
