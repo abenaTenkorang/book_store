@@ -40,15 +40,14 @@ This is an MVP version of awesome_books that allows users to "Display a list of 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-
+- Build  reusable components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]()
+- [Live Demo Link](Coming soon)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +109,7 @@ You may also see any lint errors in the console.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- Add styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
