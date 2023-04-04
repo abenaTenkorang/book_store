@@ -1,9 +1,8 @@
-import axios from 'axios';
+﻿import axios from 'axios';
 
 const URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/WsRQKjqdm08s0gADKLQn/books';
 
 const getNextItemID = (books) => {
-  // This function generates the id for a new book to be added
   if (books.length) {
     const lastBookId = books.slice(-1)[0].item_id;
     const lastBookIndex = Number(lastBookId.substr(4));
@@ -14,7 +13,7 @@ const getNextItemID = (books) => {
 
 export const getBooksFromAPI = async () => {
   const response = await axios(URL);
-  // Flatten the received array and sort it
+
   const books = Object.entries(response.data)
     .map((entry) => ({
       item_id: entry[0],
