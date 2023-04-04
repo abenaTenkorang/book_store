@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import { v4 as uuid } from 'uuid';
 import { useDispatch } from 'react-redux';
 import Button from '../button/button';
 import Input from '../Input/Input';
@@ -15,14 +16,16 @@ const Form = () => {
 
   const addBookHandle = (e) => {
     e.preventDefault();
-    dispatch(addBook(
-      {
-        item_id: Math.random(),
-        title: inputState.title,
-        author: inputState.author,
-        category: 'Fiction',
-      },
-    ));
+    if (inputState.title && inputState.author !== '') {
+      dispatch(addBook(
+        {
+          item_id: uuid(),
+          title: inputState.title,
+          author: inputState.author,
+          category: 'Fiction',
+        },
+      ));
+    }
 
     setInputState({
       title: '',
