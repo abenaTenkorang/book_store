@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Book from '../../components/book/book';
 import Form from '../../components/form/form';
-import { removeBook } from '../../redux/books/booksSlice';
+import { fetchBooks, removeBook } from '../../redux/books/booksSlice';
 
 const Books = () => {
   const books = useSelector((state) => state.books.books);
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchBooks());
+  }, [dispatch]);
 
   const removeBookHandle = (id) => {
     dispatch(removeBook(id));
