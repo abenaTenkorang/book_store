@@ -48,7 +48,7 @@ This is an MVP version of awesome_books that allows users to "Display a list of 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](Coming soon)
+- [Live Demo Link](https://book-store-wolh.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +110,8 @@ You may also see any lint errors in the console.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Add styling
+- Add styling to categories section
+- Add functionality to update button to update progress
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
