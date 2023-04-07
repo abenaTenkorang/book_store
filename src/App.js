@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Books />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
+
     </>
   );
 }
