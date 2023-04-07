@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:rgba(0, 0, 0, 0.05) ;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 code {
@@ -27,7 +27,13 @@ code {
     monospace;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
