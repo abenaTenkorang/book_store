@@ -10,6 +10,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🔭 Future Features](#future-features)
     - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -17,7 +18,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Author](#author)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -44,6 +44,12 @@ This is an MVP version of awesome_books that allows users to "Display a list of 
 - Build  reusable components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+- Add styling to categories section
+- Add functionality to update button to update progress
 
 <!-- LIVE DEMO -->
 
@@ -107,11 +113,6 @@ You may also see any lint errors in the console.
 - Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
 - LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-- Add styling to categories section
-- Add functionality to update button to update progress
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
